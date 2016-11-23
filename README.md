@@ -24,3 +24,7 @@ Then let 5 users join the same team, the status of problem became
 
 I solved some questions for each users, which gives me total 4500 points.  
 ![Scoreboard](2016-11-19 17_38_03-2016 RC3 Fall CTF.png)
+
+## Solution
+1. Remove all submission after users leave a team
+2. Check repeat submission, and remove them before a user join a new team
